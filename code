@@ -1,3 +1,4 @@
+```python
 import os
 directory= r'C:\Prabal\projects\face recognition\source code'
 os.chdir(directory)
@@ -86,3 +87,4 @@ def attendence():
 b1=Button(window,text="Mark Attendence",bg='black',fg='white',command=attendence).grid(row=2)
 
 window.mainloop()
+```
