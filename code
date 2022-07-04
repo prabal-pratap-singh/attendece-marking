@@ -1,6 +1,6 @@
-```python
-import os
-directory= r'C:\Prabal\projects\face recognition\source code'
+ 
+ import os
+ directory= r'C:\Prabal\projects\face recognition\source code'
 os.chdir(directory)
 import cv2
 import sys
@@ -87,4 +87,5 @@ def attendence():
 b1=Button(window,text="Mark Attendence",bg='black',fg='white',command=attendence).grid(row=2)
 
 window.mainloop()
-```
+
+
